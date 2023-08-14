@@ -7,6 +7,7 @@ The program provides the following options to the user:
 a. Turn on the vehicle engine
 b. Turn off the vehicle engine
 c. Quit the system
+
 2. Quitting the System
 If the user selects "Quit the system," the program will exit.
 
@@ -50,5 +51,6 @@ Vehicle Speed
 Room Temperature
 Engine Temperature Controller State
 Engine Temperature
+
 8. Turning Off the Engine
 If the user selects "Turn off the engine" in the sensor menu, the menu from Requirement 1 will be displayed again.
