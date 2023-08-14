@@ -23,6 +23,7 @@ a. Turn off the engine
 b. Set the traffic light color
 c. Set the room temperature (Temperature Sensor)
 d. Set the engine temperature (Engine Temperature Sensor)
+
 6. Continuous Display of Sensor Menu
 While the engine is ON, the sensor menu (Requirement 5) will always be displayed, waiting for the user's input.
 
