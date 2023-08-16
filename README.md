@@ -1,8 +1,8 @@
 This repository contains an implementation of a Vehicle Control System that simulates the functionalities of a vehicle's engine control and sensor readings. The system allows the user to interact with various features of the vehicle and observe its state.
 
-#Specifications#
+# Specifications
 
-a. User Interaction
+### User Interaction
 The program provides the following options to the user:
 
 1. Turn on the vehicle engine
@@ -11,16 +11,16 @@ The program provides the following options to the user:
 
 3. Quit the system
 
-b. Quitting the System
+### Quitting the System
 If the user selects "Quit the system," the program will exit.
 
-c. Turning Off the Engine
+### Turning Off the Engine
 If the user chooses "Turn off the vehicle engine," they will be prompted again with the options mentioned in Requirement 1.
 
-d. Displaying System State
+### Displaying System State
 After any choice is made, the current system state will be displayed on the screen.
 
-e. Turning On the Engine and Sensor Readings
+### Turning On the Engine and Sensor Readings
 If the user selects "Turn on the vehicle engine," the program will enter the "Sensors set menu" where the user can interact with sensor readings. The menu includes the following options:
 
 1. Turn off the engine
@@ -31,10 +31,10 @@ If the user selects "Turn on the vehicle engine," the program will enter the "Se
 
 4. Set the engine temperature (Engine Temperature Sensor)
 
-f. Continuous Display of Sensor Menu
+### Continuous Display of Sensor Menu
 While the engine is ON, the sensor menu (Requirement 5) will always be displayed, waiting for the user's input.
 
-g. Responding to Sensor Data
+### Responding to Sensor Data
 Based on the user's choices from the sensor menu:
 
 1. If the traffic light is 'G,' set vehicle speed to 100 km/hr
@@ -49,14 +49,14 @@ Based on the user's choices from the sensor menu:
 
 6. If the vehicle speed is 30 km/hr, turn on the AC if it was off and set room temperature to: current temperature * (5/4) + 1. Turn on "Engine Temperature Controller" if it was off and set engine temperature to: current temperature * (5/4) + 1.
 
-h.Display the current vehicle state, including:
+### Display the current vehicle state, including:
 
-Engine state: ON/OFF
-AC: ON/OFF
-Vehicle Speed
+1. Engine state: ON/OFF
+2. AC: ON/OFF
+3. Vehicle Speed
 Room Temperature
 Engine Temperature Controller State
 Engine Temperature
 
-i. Turning Off the Engine
+### Turning Off the Engine
 If the user selects "Turn off the engine" in the sensor menu, the menu from Requirement 1 will be displayed again.
